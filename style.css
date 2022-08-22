@@ -31,3 +31,20 @@
     font-weight: 900;
     font-variant: small-caps;
   }
+
+  h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  #color-picker {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    margin-left: 47%;
+  }
+
+  .size {
+    margin-left: 45%;
+    margin-bottom: 20px;
+  }
