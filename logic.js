@@ -2,6 +2,10 @@ const container = document.getElementById("container");
 var color = '#000000';
 let hasEventListener = false;
 
+/**
+ * Creates a grid value * value.
+ * @param {*} value int
+ */
 function makeRows(value) {
   container.style.setProperty('--grid-rows', value);
   container.style.setProperty('--grid-cols', value);
@@ -14,10 +18,16 @@ function makeRows(value) {
   };
 };
 
+/**
+ * Gets a color from color picker.
+ */
 function changeColor() {
   color = document.getElementById('color-picker').value;
 }
 
+/**
+ * Start the app and adds event listeners.
+ */
 function start() {
   const nodelist = document.querySelectorAll('.grid-item');
   const cells = Array.from(nodelist);
