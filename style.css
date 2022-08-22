@@ -1,0 +1,33 @@
+
+:root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+  }
+  
+  #container {
+    display: grid;
+    align-content: stretch;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 auto;
+    max-width: 80vw;
+    min-height: 80vh;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+  }
+  
+  .grid-item {
+    padding: 5px;
+    border: 1px solid rgb(19, 13, 13);
+    text-align: center;
+    font-size: medium;
+  }
+
+  h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    font-variant: small-caps;
+  }
