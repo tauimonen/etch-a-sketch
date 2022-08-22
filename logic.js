@@ -31,8 +31,8 @@ function start() {
     })  
 
     size.addEventListener('click', e => {
-      const val = prompt('Submit new size (2-100): ');
-      if (val > 1 && val <= 100) {
+      const val = prompt('Submit new size (2-50): ');
+      if (val > 1 && val <= 50) {
         makeRows(val);
         console.log(val);
         start();
@@ -47,7 +47,7 @@ cells.forEach(cell => {
 })
 }
 
-makeRows(16);
+makeRows(30);
 start();
 
 

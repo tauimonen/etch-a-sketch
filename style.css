@@ -11,8 +11,8 @@
     flex-direction: column;
     justify-content: flex-start;
     margin: 0 auto;
-    max-width: 80vw;
-    min-height: 80vh;
+    max-width: 60vw;
+    min-height: 60vh;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr);
   }
@@ -48,3 +48,20 @@
     margin-left: 45%;
     margin-bottom: 20px;
   }
+
+  .footer {
+    margin-top: 20px;
+    padding: 5px;
+    align-items: center;
+    background: #2c2d2e;
+    color: #F9FAF8;
+    text-align: center;
+}
+
+.header {
+  padding: 5px;
+  align-items: center;
+  background: #2c2d2e;
+  color: #F9FAF8;
+  text-align: center;
+}
